@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "http://127.0.0.1:4000"
+baseurl: "https://digitlz.github.io/photography/"
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
