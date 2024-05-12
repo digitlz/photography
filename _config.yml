@@ -17,4 +17,4 @@ footer:
  bio: "I'm glad that you're here. I use this website to have a public collection of my favorite pictures that I took in the past years."
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
-exif: '[{"tag": "Model", "icon": "camera-retro", "text": ""}, {"tag": "FNumber", "icon": "dot-circle-o", "text": "F"}, {"tag": "ExposureTime", "icon": "clock-o", "text": ""}, {"tag": "ISOSpeedRatings", "icon": "info-circle", "text": "ISO"}]'
+exif: '[{"tag": "FNumber", "icon": "dot-circle-o", "text": "F"}, {"tag": "ExposureTime", "icon": "clock-o", "text": ""}, {"tag": "ISOSpeedRatings", "icon": "info-circle", "text": "ISO"}, {"tag": "Model", "icon": "camera-retro", "text": ""}]'

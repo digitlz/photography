@@ -1201,7 +1201,9 @@
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				font-family: Andale Mono;
+				line-height: 1.1em;
+				color: #ccc;
 			}
 
 		.poptrox-popup .loader {
