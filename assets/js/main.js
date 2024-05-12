@@ -315,7 +315,9 @@
                 var current_data = exif[current];
                 var exif_data = EXIF.getTag(img, current_data['tag']);
                 if (typeof exif_data !== "undefined") {
-                    template += current_data['text'] + exif_data + '<br/>';
+                    var append = "";
+                    if (current_data['icon'] == 'focalLength') append = 'mm';
+                    template += current_data['text'] + exif_data + append + '<br/>';
                 }
             }
             return template;
