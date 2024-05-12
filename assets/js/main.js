@@ -317,6 +317,8 @@
                 if (typeof exif_data !== "undefined") {
                     var append = '';
                     if (current_data['tag'] === 'FocalLength') append = 'mm';
+                    console.log(current_data);
+                    console.log(append);
                     template += current_data['text'] + exif_data + append + '<br/>';
                 }
             }
