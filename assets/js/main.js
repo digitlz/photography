@@ -316,7 +316,7 @@
                 var exif_data = EXIF.getTag(img, current_data['tag']);
                 if (typeof exif_data !== "undefined") {
                     var append = '';
-                    if (current_data['tag'] === 'FocalLength') append = 'mm';
+                    if (current_data['tag'] === 'FocalLengthIn35mmFilm') append = 'mm';
                     console.log(current_data);
                     console.log(append);
                     template += current_data['text'] + exif_data + append + '<br/>';
